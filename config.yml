@@ -1,0 +1,4 @@
+ph: 'D:\DSPH\csv\PH.csv'
+plaque: 'D:\DSPH\csv\plaque.csv'
+gum_bleeding: 'D:\DSPH\csv\gum_bleeding.csv'
+lifesum: 'D:\DSPH\csv\lifesum.csv'
