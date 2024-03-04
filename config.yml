@@ -1,4 +1,4 @@
-ph: 'D:\DSPH\csv\PH.csv'
-plaque: 'D:\DSPH\csv\plaque.csv'
-gum_bleeding: 'D:\DSPH\csv\gum_bleeding.csv'
-lifesum: 'D:\DSPH\csv\lifesum.csv'
+ph: 'PH.csv'
+plaque: 'Plaque.csv'
+gum_bleeding: 'Gum-Bleeding.csv'
+lifesum: 'lifesum.csv'
