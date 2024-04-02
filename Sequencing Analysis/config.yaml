@@ -1,7 +1,7 @@
 # CONFIGURE KRAKEN FILES (OR BRACKEN)
 kraken_files:
-  before_measurement_file: '~/Downloads/dsph/R1.txt'  # add correct path
-  after_measurement_file: '~/Downloads/dsph/R2.txt'   # add correct path
+  before_measurement_file: '/students/2023-2024/master/micromouth_marvels/working/R1.txt'  # add path!
+  after_measurement_file: '/students/2023-2024/master/micromouth_marvels/working/R2.txt'   # add path!
 
 # OPTIONAL: specify species to solely include in the analysis
 # if empty, all species will be included
