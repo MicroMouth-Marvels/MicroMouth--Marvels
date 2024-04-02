@@ -28,15 +28,15 @@ If desired, all requirements can be installed via:
 ###
 As soon as the configuration file is correct and not changed in name, the main python module is automatically compatible with the configuration file and can be run like:
 
-'''{python}
+```{python}
 ./dsph.py
-'''
+```
 
 or
 
-'''{python}
+```{python}
 python dsph.py
-'''
+```
 
 The default interpreter is python3.
 
