@@ -1,0 +1,13 @@
+# CONFIGURE KRAKEN FILES (OR BRACKEN)
+kraken_files:
+  before_measurement_file: '~/Downloads/dsph/R1.txt'  # add correct path
+  after_measurement_file: '~/Downloads/dsph/R2.txt'   # add correct path
+
+# OPTIONAL: specify species to solely include in the analysis
+# if empty, all species will be included
+selected_species: 
+#  - 'species'
+
+# OPTIONAL: top N species (based on largest sample proportion) to show in plot
+# if not provided, all species will be shown
+top_n_species: 20
