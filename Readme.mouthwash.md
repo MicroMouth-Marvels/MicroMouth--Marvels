@@ -35,7 +35,7 @@ The analysis reveals significant......
 
 ## How to Use this application
 1. Clone repository
-2. Check if dependencies needed are installed on machine( check materials.txt)
+2. Check if dependencies needed are installed on machine( requirements.txt)
 3. Execute main.ipynb in a Jupyter Notebook environment.
 
 ## Group members
