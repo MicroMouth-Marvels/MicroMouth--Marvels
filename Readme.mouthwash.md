@@ -31,7 +31,7 @@ Visualization: Utilizing histograms, scatter plots, and box plots for data explo
 Statistical Tests: MannWhitney test, AndersonDarling test, Q_Q_Plot,Mcmenar's test, Wilcoxon-sign-ranked test
 
 ## Conclusion
-The analysis reveals significant correlations between specific lifestyle choices and hypertension and dyslipidemia leading to cardiovascular disese.
+The analysis reveals significant......
 
 ## How to Use this application
 1. Clone repository
@@ -41,6 +41,9 @@ The analysis reveals significant correlations between specific lifestyle choices
 ## Group members
 - Lily Konadu Gyammerah
 - Dipto Gosswami
+- Jetske Van Kampen
+- Delinyah Koning
+- Maryam Esmaeli 
 
 
 ## References
