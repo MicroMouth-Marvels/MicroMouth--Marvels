@@ -31,7 +31,7 @@ Visualization: Utilizing histograms, scatter plots, and box plots for data explo
 Statistical Tests: MannWhitney test, AndersonDarling test, Q_Q_Plot,Mcmenar's test, Wilcoxon-sign-ranked test
 
 ## Conclusion
-The analysis reveals significant......
+The analysis reveals there was not a significant change in PH values, gum bleeding and plaque values amongst all participants after the use of the probiotic mouthwash based on the individual pvalues obtained from the various protocols before and after the test period. However, there was a significant change in gum bleeding values when the responses of all the participants are put together based on the pvalues obtained after the use the probiotic mouthwash. 
 
 ## How to Use this application
 1. Clone repository
