@@ -1,7 +1,7 @@
 # Effects of probiotic mouthwash on the oral microbiome health 
 
 ## Overview
-This file contains an in-depth analysis from the data obtained from experiment carried on a probiotic mouthwash on market. 
+This file contains an in-depth analysis from the data obtained from experiment carried on a probiotic mouthwash on market using PH testing, Gum bleeding and Plaque as our experimental protocol. 
 
 ## Purpose
 The analysis aims to determine the effectiveness of the probiotic mouthwash in maintaining the health of the oral microbiome. 
