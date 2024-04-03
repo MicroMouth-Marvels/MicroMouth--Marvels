@@ -98,12 +98,13 @@ def DS_Q_Q_Plot_test(y, est = 'robust', **kwargs):
     plt.plot(z_th, CI_lower, '--', color='b')
 
     stats_text = f'Estimation method: {est}\nn = {n}, mu = {mu:.4g}, sigma = {sigma:.4g}\nExpected number of data outside CI: {n_dev:.0f}'
-    plt.text(1.05, 0.95, stats_text, transform = plt.gca(). transAxes, fontsize=9, verticalalignment='top')
+    plt.text(0.45, 0.05, stats_text, transform = plt.gca(). transAxes, fontsize=9, verticalalignment='bottom')
     plt.xlabel('Theoretical quantiles, $z_{(i)}$')
     plt.ylabel('Sample quantiles, $z_i$')
     plt.title('Q-Q plot (' + est + ')')
     plt.legend(loc='best')
     plt.show()
+    
 def DS_Q_Q_Plot(y, est = 'robust', **kwargs):
     """
     *
