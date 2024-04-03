@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import anderson
 from scipy.stats import norm
 
-def DS_Q_Q_Plot(y, est = 'robust', **kwargs):
+def DS_Q_Q_Plot_test(y, est = 'robust', **kwargs):
     """
     *
     Function DS_Q_Q_Plot(y, est = 'robust', **kwargs)
