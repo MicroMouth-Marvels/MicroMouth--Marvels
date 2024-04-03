@@ -65,13 +65,10 @@ def DS_Q_Q_Plot(y, est = 'robust', **kwargs):
         print('Wrong estimation method chosen!')
         return()
         
-    print('Estimation method: ' + est)
-    print('n = {:d}, mu = {:.4g}, sigma = {:.4g}'.format(n, mu,sigma))
     
     # Expected number of deviations (95% confidence level):
     n_dev = np.round(0.05*n)
     
-    print('Expected number of data outside CI: {:.0f}'.format(n_dev))
          
     # Perform z-transform: sample quantiles z.i
     z_i = (y_os - mu)/sigma
@@ -96,6 +93,9 @@ def DS_Q_Q_Plot(y, est = 'robust', **kwargs):
     plt.plot(z_th, z_th, '--', color='r', label='normal line')
     plt.plot(z_th, CI_upper, '--', color='b', label='95% CI')
     plt.plot(z_th, CI_lower, '--', color='b')
+
+    stats_text = f'Estimation method: {est}\nn = {n}, mu = {mu:.4g}, sigma = {sigma:.4g}\nExpected number of data outside CI: {n_dev:.0f}'
+    plt.text(1.05, 0.95, stats_text, transform = plt.gca(). transAxes, fontsize=9, verticalalignment='top')
     plt.xlabel('Theoretical quantiles, $z_{(i)}$')
     plt.ylabel('Sample quantiles, $z_i$')
     plt.title('Q-Q plot (' + est + ')')
@@ -241,7 +241,7 @@ def DS_2sample_MannWhitney_test_medians(y1, y2, alternative='two-sided', alpha=0
         print('Wrong alternative hypothesis chosen!')
         print(80*'-' + '\n')
         U_1, U_2, U, p_value = np.nan, np.nan, np.nan, np.nan
-        return(U_1, U_2, U, p_value)
+    return(U_1, U_2, U, p_value)
     
     #res = mannwhitneyu(y1, y2, alternative=alternative, use_continuity=True)
     res = mannwhitneyu(y1, y2, alternative=alternative, use_continuity=False)
