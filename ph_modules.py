@@ -1,10 +1,3 @@
-from scipy.stats import mannwhitneyu
-import numpy as np
-from scipy.stats import iqr # iqr is the Interquartile Range function
-import matplotlib.pyplot as plt
-from scipy.stats import anderson
-from scipy.stats import norm
-
 def DS_Q_Q_Plot_test(y, est = 'robust', **kwargs):
     """
     *
@@ -32,7 +25,10 @@ def DS_Q_Q_Plot_test(y, est = 'robust', **kwargs):
     Date:              2020-01-06, revision 2022-08-30
     """
     
-    
+    import numpy as np
+    from scipy.stats import iqr
+    import matplotlib.pyplot as plt
+    from scipy.stats import norm
     
     # First, get the optional arguments mu and sigma:
     mu_0 = kwargs.get('mu', None)
