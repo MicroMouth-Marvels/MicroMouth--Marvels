@@ -1,0 +1,12 @@
+bokeh
+matplotlib
+numpy
+panadas
+panel
+seaborn
+statsmodels
+yaml
+pywidgets
+statistics_modules
+Ipython
+
