@@ -237,7 +237,7 @@ def DS_2sample_MannWhitney_test_medians(y1, y2, alternative='two-sided', alpha=0
         print('Wrong alternative hypothesis chosen!')
         print(80*'-' + '\n')
         U_1, U_2, U, p_value = np.nan, np.nan, np.nan, np.nan
-    return(U_1, U_2, U, p_value)
+        return(U_1, U_2, U, p_value)
     
     #res = mannwhitneyu(y1, y2, alternative=alternative, use_continuity=True)
     res = mannwhitneyu(y1, y2, alternative=alternative, use_continuity=False)
