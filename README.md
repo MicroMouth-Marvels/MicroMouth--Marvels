@@ -57,7 +57,7 @@ The analysis reveals there was not a significant change in PH values, gum bleedi
 - M. Emile F. Apol, *Life Science & Technology, Hanze University of Applied Sciences, Groningen*(codes for Q-Q plot,MannWhitney test, AndersonDarling test )
 - Edwards AL: Note on the “correction for continuity” in testing the significance of the difference between correlated proportions. Psychometrika 1948, 13(3):185–187.
 
-   *References on the use of mcnemars test*
+*References on the use of mcnemars test*
 - Fagerland, M. W., Lydersen, S., & Laake, P. (2013). The McNemar test for binary matched-pairs data: Mid-p and asymptotic are better than exact conditional. Retrieved April 14, 2018, from http://www.biomedcentral.com/1471-2288/13/91
 - Gibbons, J. D., & Chakraborti, S. (2010). Nonparametric statistical inference. London: Chapman & Hall.
 - Wikipedia contributors. (2018, April 29). McNemar's test. In Wikipedia, The Free Encyclopedia. Retrieved 12:24, August 15, 2018, from https://en.wikipedia.org/w/index.php?title=McNemar%27s_test&oldid=838855782
