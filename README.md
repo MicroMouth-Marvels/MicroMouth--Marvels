@@ -1,5 +1,5 @@
 # MicroMouth--Marvels
-# The Influence of Probiotic Mouthwash on Genomic Profiles and Health of the Oral Human Microbiome​
+# The Influence of Probiotic Mouthwash on Genomic Profiles and Health of the Oral Human Microbiome​.
 
 ## Overview
 This repository contains all modules used for analysis of data obtained from an experiment that tested the efficacy of a probiotic mouthwash on oral health, where efficacy means improved or restored oral health parameters as follows:
