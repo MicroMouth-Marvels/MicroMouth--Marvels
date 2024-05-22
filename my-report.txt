@@ -1,0 +1,56 @@
+ 99.12	3965	3965	U	0	unclassified
+  0.88	35	0		1	root
+  0.88	35	0		3	  Bacteria
+  0.42	17	0		34	    Firmicutes
+  0.40	16	0	C	226	      Clostridia
+  0.40	16	1	O	527	        Clostridiales
+  0.15	6	1	F	1020	          Ruminococcaceae
+  0.05	2	1	G	1831	            Ruminococcus
+  0.03	1	1	S	2792	              Ruminococcus flavefaciens
+  0.03	1	1	G	1827	            Anaerotruncus
+  0.03	1	0	G	1829	            Faecalibacterium
+  0.03	1	1	S	2788	              Faecalibacterium prausnitzii
+  0.03	1	1	G	1830	            Oscillospira
+  0.12	5	2	F	1017	          Lachnospiraceae
+  0.03	1	1	G	1797	            Blautia
+  0.03	1	1	G	1801	            Dorea
+  0.03	1	1	G	1810	            [Ruminococcus]
+  0.05	2	2	F	1009	          Christensenellaceae
+  0.05	2	1	F	1027	          [Mogibacteriaceae]
+  0.03	1	1	G	1862	            Mogibacterium
+  0.03	1	0	C	227	      Erysipelotrichi
+  0.03	1	0	O	535	        Erysipelotrichales
+  0.03	1	0	F	1043	          Erysipelotrichaceae
+  0.03	1	0	G	1907	            Sharpea
+  0.03	1	1	S	2813	              Sharpea p-3329-23G2
+  0.20	8	0		17	    Bacteroidetes
+  0.20	8	0	C	169	      Bacteroidia
+  0.20	8	2	O	423	        Bacteroidales
+  0.05	2	0	F	889	          Prevotellaceae
+  0.05	2	1	G	1504	            Prevotella
+  0.03	1	1	S	2604	              Prevotella copri
+  0.05	2	2	F	892	          S24-7
+  0.03	1	0	F	884	          Bacteroidaceae
+  0.03	1	1	G	1497	            Bacteroides
+  0.03	1	1	F	895	          [Barnesiellaceae]
+  0.17	7	0		67	    Proteobacteria
+  0.17	7	0	C	297	      Gammaproteobacteria
+  0.15	6	0	O	659	        Enterobacteriales
+  0.15	6	0	F	1171	          Enterobacteriaceae
+  0.15	6	6	G	2279	            Sodalis
+  0.03	1	0	O	673	        Xanthomonadales
+  0.03	1	0	F	1198	          Xanthomonadaceae
+  0.03	1	1	G	2359	            Lysobacter
+  0.05	2	0		11	    Actinobacteria
+  0.03	1	0	C	145	      Actinobacteria
+  0.03	1	0	O	403	        Actinomycetales
+  0.03	1	0	F	830	          Corynebacteriaceae
+  0.03	1	1	G	1369	            Corynebacterium
+  0.03	1	0	C	146	      Coriobacteriia
+  0.03	1	0	O	407	        Coriobacteriales
+  0.03	1	1	F	867	          Coriobacteriaceae
+  0.03	1	0		73	    Synergistetes
+  0.03	1	0	C	311	      Synergistia
+  0.03	1	0	O	696	        Synergistales
+  0.03	1	0	F	1217	          Synergistaceae
+  0.03	1	1	G	2399	            vadinCA02
