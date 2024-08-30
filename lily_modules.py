@@ -80,7 +80,7 @@ def plot_bar(df, x_column, y_column, title):
     y_column (str): The column to use for the y-axis.
     title (str): The title of the plot.
     """
-    # Sort the DataFrame by the y_column in descending order
+    # Sort the DataFrame by the x_column in descending order
     df_sorted = df.sort_values(by=x_column, ascending=False)
 
     # Create the bar plot
